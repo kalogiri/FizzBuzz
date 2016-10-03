@@ -1,0 +1,354 @@
+2016-03-11 12:21:18.013, LSC-DEV-01:rachitgiri, Executable (Exe modified: 2016-03-11 12:21)
+C:\PPProject\c# Projects\Test\Test\bin\Debug\Test.exe
+
+2016-03-11 12:21:18.015, LSC-DEV-01:rachitgiri, Debug Log:
+C:\PPProject\c# Projects\Test\ppwatch\RBKC\Download\DebugLogs\Test\2016-03-11-122118_debug.txt
+
+2016-03-11 12:21:18.016, LSC-DEV-01:rachitgiri, Working Dir:
+C:\PPProject\c# Projects\Test\ppwatch\RBKC\Download\WorkingFolder\
+
+2016-03-11 12:21:18.017, LSC-DEV-01:rachitgiri, Live Data Dir:
+C:\PPProject\c# Projects\Test\ppwatch\RBKC\Incoming\
+
+2016-03-11 12:21:18.020, LSC-DEV-01:rachitgiri, Credentials path:
+\\PPWATCH-1\LibertyConfig\ExternalCredentials.xml
+
+2016-03-11 12:21:18.027, LSC-DEV-01:rachitgiri, Loading LibertyConfigExternalCredentials: \\PPWATCH-1\LibertyConfig\ExternalCredentials.xml
+2016-03-11 12:21:18.116, LSC-DEV-01:rachitgiri, Mutex (Global\{RBKCDownload}) requested
+2016-03-11 12:21:18.117, LSC-DEV-01:rachitgiri, Mutex (Global\{RBKCDownload}) granted
+2016-03-11 12:21:18.118, LSC-DEV-01:rachitgiri, Deleting Directory: C:\PPProject\c# Projects\Test\ppwatch\RBKC\Download\WorkingFolder\
+2016-03-11 12:21:18.119, LSC-DEV-01:rachitgiri, Recreating Directory: C:\PPProject\c# Projects\Test\ppwatch\RBKC\Download\WorkingFolder\
+2016-03-11 12:21:18.120, LSC-DEV-01:rachitgiri, =========================================================
+
+
+2016-03-11 12:21:18.121, LSC-DEV-01:rachitgiri, Gathering Files
+2016-03-11 12:21:18.125, LSC-DEV-01:rachitgiri, Creating temp dir: Test_2016_03_11_122118
+2016-03-11 12:21:18.126, LSC-DEV-01:rachitgiri, Clearing: C:\PPProject\c# Projects\Test\ppwatch\RBKC\Download\WorkingFolder\
+2016-03-11 12:21:18.130, LSC-DEV-01:rachitgiri, FTPUtils.Execute: { server = 213.131.177.134:22, username = Kcliberty, authType = password, ftpMode = SFTP, tempFileName = C:\Users\rachitgiri\AppData\Local\Temp\tmpD881.tmp, WinScpPath = C:\Program Files (x86)\WinSCP\WinSCP.com }
+2016-03-11 12:21:18.131, LSC-DEV-01:rachitgiri, Compiled Command:
+	option confirm off
+	option batch abort
+	option exclude <1
+	open -hostkey="*" "sftp://Kcliberty:***@213.131.177.134:22"
+	lcd "C:/Users/rachitgiri/AppData/Local/Temp/Test_2016_03_11_122118/"
+	cd "/CorrespExport/"
+	ls
+	get -filemask="|*/" *.csv
+	
+	close
+	exit
+	
+2016-03-11 12:21:20.569, LSC-DEV-01:rachitgiri, WINSCP OUTPUT:
+		. 2016-03-11 12:21:18.328 --------------------------------------------------------------------------
+		. 2016-03-11 12:21:18.328 WinSCP Version 5.7.5 (Build 5665) (OS 6.1.7601 Service Pack 1 - Windows 7 Professional)
+		. 2016-03-11 12:21:18.328 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+		. 2016-03-11 12:21:18.329 Log level: Normal
+		. 2016-03-11 12:21:18.329 Local account: LSC-DEV-01\rachitgiri
+		. 2016-03-11 12:21:18.329 Working directory: C:\PPProject\c# Projects\Test\Test\bin\Debug
+		. 2016-03-11 12:21:18.329 Process ID: 12252
+		. 2016-03-11 12:21:18.329 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=575 /consoleinstance=_10336_322 "/log=C:\Users\rachitgiri\AppData\Local\Temp\tmpD882.tmp" "/console" "/script=C:\Users\rachitgiri\AppData\Local\Temp\tmpD881.tmp" 
+		. 2016-03-11 12:21:18.329 Time zone: Current: GMT+0, Standard: GMT+0 (GMT Standard Time), DST: GMT+1 (GMT Daylight Time), DST Start: 27/03/2016, DST End: 30/10/2016
+		. 2016-03-11 12:21:18.329 Login time: 11 March 2016 12:21:18
+		. 2016-03-11 12:21:18.329 --------------------------------------------------------------------------
+		. 2016-03-11 12:21:18.329 Script: Retrospectively logging previous script records:
+		> 2016-03-11 12:21:18.329 Script: option confirm off
+		< 2016-03-11 12:21:18.329 Script: confirm         off       
+		> 2016-03-11 12:21:18.329 Script: option batch abort
+		< 2016-03-11 12:21:18.329 Script: batch           abort     
+		< 2016-03-11 12:21:18.329 Script: reconnecttime   120       
+		> 2016-03-11 12:21:18.329 Script: option exclude <1
+		< 2016-03-11 12:21:18.329 Script: include         |<1       
+		> 2016-03-11 12:21:18.329 Script: open -hostkey="*" sftp://Kcliberty:***@213.131.177.134:22
+		. 2016-03-11 12:21:18.329 --------------------------------------------------------------------------
+		. 2016-03-11 12:21:18.329 Session name: Kcliberty@213.131.177.134 (Ad-Hoc site)
+		. 2016-03-11 12:21:18.329 Host name: 213.131.177.134 (Port: 22)
+		. 2016-03-11 12:21:18.329 User name: Kcliberty (Password: Yes, Key file: No)
+		. 2016-03-11 12:21:18.329 Tunnel: No
+		. 2016-03-11 12:21:18.329 Transfer Protocol: SFTP
+		. 2016-03-11 12:21:18.329 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+		. 2016-03-11 12:21:18.329 Disable Nagle: No
+		. 2016-03-11 12:21:18.329 Proxy: none
+		. 2016-03-11 12:21:18.329 Send buffer: 262144
+		. 2016-03-11 12:21:18.329 SSH protocol version: 2; Compression: No
+		. 2016-03-11 12:21:18.329 Bypass authentication: No
+		. 2016-03-11 12:21:18.329 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+		. 2016-03-11 12:21:18.329 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+		. 2016-03-11 12:21:18.329 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+		. 2016-03-11 12:21:18.329 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A,A
+		. 2016-03-11 12:21:18.329 Simple channel: Yes
+		. 2016-03-11 12:21:18.329 Return code variable: Autodetect; Lookup user groups: A
+		. 2016-03-11 12:21:18.329 Shell: default
+		. 2016-03-11 12:21:18.329 EOL: 0, UTF: 2
+		. 2016-03-11 12:21:18.329 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+		. 2016-03-11 12:21:18.329 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+		. 2016-03-11 12:21:18.329 SFTP Bugs: A,A
+		. 2016-03-11 12:21:18.329 SFTP Server: default
+		. 2016-03-11 12:21:18.329 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+		. 2016-03-11 12:21:18.329 Cache directory changes: Yes, Permanent: Yes
+		. 2016-03-11 12:21:18.329 DST mode: 1
+		. 2016-03-11 12:21:18.329 --------------------------------------------------------------------------
+		. 2016-03-11 12:21:18.329 Looking up host "213.131.177.134"
+		. 2016-03-11 12:21:18.329 Connecting to 213.131.177.134 port 22
+		. 2016-03-11 12:21:18.345 Server version: SSH-2.0-CerberusFTPServer_8.0
+		. 2016-03-11 12:21:18.345 Using SSH protocol version 2
+		. 2016-03-11 12:21:18.345 We claim version: SSH-2.0-WinSCP_release_5.7.5
+		. 2016-03-11 12:21:18.353 Doing Diffie-Hellman group exchange
+		. 2016-03-11 12:21:18.556 Doing Diffie-Hellman key exchange with hash SHA-256
+		. 2016-03-11 12:21:19.632 Verifying host key rsa2 0x10001,0xd7e98f2791da8dfe 5205ebc978ff74b0 9d9b5186ec4ecb47 469bba96a1a90f8a 24233dbb40390742 c20cb00e47704b44 fc55777e03cb1376 6bc8a55bad7cdd8b 589476cd72914e84 545ff0dbc807c05a 04f0c837b4589d7d 34a7b64d7ad22695 b12de31075197096 9bd22ebd18cb5de1 a52159ce8aa0bf15 83d0373b77220cf2 3e26519ac24865ff aec876729472f912 a3caf1cf310869f2 e073e4f4490a0ced 052b5df33023a776 10d865060a2d740a 9aedf43ffd5cd23f f850bd604eb6b51b c91723db2a82f226 ca160d1d59dc9e7d 0bded72a9f031d80 deadae336454b7d4 e2846c4fca11a491 2462e5085c0d0e0e a8eb63b7cb1773bd a4334e0fb76228f1  with fingerprint ssh-rsa 2048 8a:b9:6b:2a:3f:43:70:a6:83:70:6f:3c:6f:33:13:20
+		* 2016-03-11 12:21:19.632 WARNING! Giving up security and accepting any host key as configured!
+		. 2016-03-11 12:21:19.632 Host key fingerprint is:
+		. 2016-03-11 12:21:19.632 ssh-rsa 2048 8a:b9:6b:2a:3f:43:70:a6:83:70:6f:3c:6f:33:13:20
+		. 2016-03-11 12:21:19.632 Initialised AES-256 SDCTR client->server encryption
+		. 2016-03-11 12:21:19.632 Initialised HMAC-SHA-256 client->server MAC algorithm
+		. 2016-03-11 12:21:19.632 Initialised AES-256 SDCTR server->client encryption
+		. 2016-03-11 12:21:19.632 Initialised HMAC-SHA-256 server->client MAC algorithm
+		! 2016-03-11 12:21:19.850 Using username "Kcliberty".
+		. 2016-03-11 12:21:19.928 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+		. 2016-03-11 12:21:19.928 Using stored password.
+		. 2016-03-11 12:21:19.928 Sent password
+		. 2016-03-11 12:21:20.116 Access granted
+		. 2016-03-11 12:21:20.116 Opening session as main channel
+		. 2016-03-11 12:21:20.116 Opened main channel
+		. 2016-03-11 12:21:20.335 Started a shell/command
+		. 2016-03-11 12:21:20.335 --------------------------------------------------------------------------
+		. 2016-03-11 12:21:20.335 Using SFTP protocol.
+		. 2016-03-11 12:21:20.335 Doing startup conversation with host.
+		> 2016-03-11 12:21:20.335 Type: SSH_FXP_INIT, Size: 5, Number: -1
+		< 2016-03-11 12:21:20.351 Type: SSH_FXP_VERSION, Size: 162, Number: -1
+		. 2016-03-11 12:21:20.351 SFTP version 6 negotiated.
+		. 2016-03-11 12:21:20.351 Server requests EOL sequence "\r\n".
+		. 2016-03-11 12:21:20.351 Server software: Cerberus FTP Server 8.0.0.6 (80000006) by Cerberus, LLC
+		. 2016-03-11 12:21:20.351 Server support information (supported2):
+		. 2016-03-11 12:21:20.351   Attribute mask: 2BD, Attribute bits: FF, Open flags: 7
+		. 2016-03-11 12:21:20.351   Access mask: 3, Open block vector: 0, Block vector: 0, Max read size: 0
+		. 2016-03-11 12:21:20.351   Attribute extensions (0)
+		. 2016-03-11 12:21:20.351   Extensions (1)
+		. 2016-03-11 12:21:20.351     check-file
+		. 2016-03-11 12:21:20.351 We will use UTF-8 strings as it is mandatory with SFTP version 4 and newer
+		. 2016-03-11 12:21:20.351 Getting current directory name.
+		. 2016-03-11 12:21:20.351 Getting real path for '.'
+		> 2016-03-11 12:21:20.351 Type: SSH_FXP_REALPATH, Size: 11, Number: 16
+		< 2016-03-11 12:21:20.351 Type: SSH_FXP_NAME, Size: 72, Number: 16
+		. 2016-03-11 12:21:20.351 Real path is '/'
+		. 2016-03-11 12:21:20.351 Startup conversation with host finished.
+		< 2016-03-11 12:21:20.351 Script: Active session: [1] Kcliberty@213.131.177.134
+		> 2016-03-11 12:21:20.351 Script: lcd "C:/Users/rachitgiri/AppData/Local/Temp/Test_2016_03_11_122118/"
+		< 2016-03-11 12:21:20.351 Script: C:\Users\rachitgiri\AppData\Local\Temp\Test_2016_03_11_122118
+		> 2016-03-11 12:21:20.351 Script: cd "/CorrespExport/"
+		. 2016-03-11 12:21:20.351 Cached directory change via "/CorrespExport/" to "/CorrespExport".
+		. 2016-03-11 12:21:20.351 Getting current directory name.
+		< 2016-03-11 12:21:20.351 Script: /CorrespExport
+		> 2016-03-11 12:21:20.351 Script: ls
+		. 2016-03-11 12:21:20.351 Listing directory "/CorrespExport".
+		> 2016-03-11 12:21:20.351 Type: SSH_FXP_OPENDIR, Size: 23, Number: 267
+		< 2016-03-11 12:21:20.382 Type: SSH_FXP_HANDLE, Size: 23, Number: 267
+		> 2016-03-11 12:21:20.382 Type: SSH_FXP_READDIR, Size: 23, Number: 524
+		< 2016-03-11 12:21:20.397 Type: SSH_FXP_NAME, Size: 567, Number: 524
+		> 2016-03-11 12:21:20.397 Type: SSH_FXP_READDIR, Size: 23, Number: 780
+		< 2016-03-11 12:21:20.397 Type: SSH_FXP_STATUS, Size: 22, Number: 780
+		< 2016-03-11 12:21:20.397 Status code: 1
+		> 2016-03-11 12:21:20.397 Type: SSH_FXP_CLOSE, Size: 23, Number: 1028
+		. 2016-03-11 12:21:20.397 .;D;0;2016-03-11T12:11:01.000Z;"" [0];"" [0];rw-rw-rw-;3
+		. 2016-03-11 12:21:20.397 ..;D;0;2016-03-11T12:11:01.000Z;"" [0];"" [0];rw-rw-rw-;1
+		. 2016-03-11 12:21:20.397 Archive;D;0;2016-03-11T12:07:16.000Z;"" [0];"" [0];rw-rw-rw-;1
+		. 2016-03-11 12:21:20.397 InviteToPay-asdasd-asdasdasd-asdasdasd-asdasdasdasd.csv;-;11;2016-03-08T13:28:08.000Z;"" [0];"" [0];rw-rw-rw-;1
+		. 2016-03-11 12:21:20.397 PDF;D;0;2015-08-20T10:54:48.000Z;"" [0];"" [0];rw-rw-rw-;1
+		. 2016-03-11 12:21:20.397 RenewalReminder_asdasd_asdasdasd_asdasfgadgasdasd45415.csv;-;15;2016-03-08T13:27:29.000Z;"" [0];"" [0];rw-rw-rw-;1
+		. 2016-03-11 12:21:20.397 TEST;D;0;2016-03-11T12:05:16.000Z;"" [0];"" [0];rw-rw-rw-;1
+		< 2016-03-11 12:21:20.397 Script: Drw-rw-rw-   0                           0 Mar 11 12:11:01 2016 .
+		< 2016-03-11 12:21:20.397 Script: Drw-rw-rw-   0                           0 Mar 11 12:11:01 2016 ..
+		< 2016-03-11 12:21:20.397 Script: Drw-rw-rw-   0                           0 Mar 11 12:07:16 2016 Archive
+		< 2016-03-11 12:21:20.397 Script: -rw-rw-rw-   0                          11 Mar  8 13:28:08 2016 InviteToPay-asdasd-asdasdasd-asdasdasd-asdasdasdasd.csv
+		< 2016-03-11 12:21:20.397 Script: Drw-rw-rw-   0                           0 Aug 20 11:54:48 2015 PDF
+		< 2016-03-11 12:21:20.397 Script: -rw-rw-rw-   0                          15 Mar  8 13:27:29 2016 RenewalReminder_asdasd_asdasdasd_asdasfgadgasdasd45415.csv
+		< 2016-03-11 12:21:20.397 Script: Drw-rw-rw-   0                           0 Mar 11 12:05:16 2016 TEST
+		> 2016-03-11 12:21:20.397 Script: get -filemask="|*/" *.csv
+		. 2016-03-11 12:21:20.397 Listing directory "/CorrespExport".
+		> 2016-03-11 12:21:20.397 Type: SSH_FXP_OPENDIR, Size: 23, Number: 1291
+		< 2016-03-11 12:21:20.413 Type: SSH_FXP_STATUS, Size: 22, Number: 1028
+		. 2016-03-11 12:21:20.413 Discarding reserved response
+		< 2016-03-11 12:21:20.413 Type: SSH_FXP_HANDLE, Size: 23, Number: 1291
+		> 2016-03-11 12:21:20.413 Type: SSH_FXP_READDIR, Size: 23, Number: 1548
+		< 2016-03-11 12:21:20.429 Type: SSH_FXP_NAME, Size: 567, Number: 1548
+		> 2016-03-11 12:21:20.429 Type: SSH_FXP_READDIR, Size: 23, Number: 1804
+		< 2016-03-11 12:21:20.429 Type: SSH_FXP_STATUS, Size: 22, Number: 1804
+		< 2016-03-11 12:21:20.429 Status code: 1
+		> 2016-03-11 12:21:20.429 Type: SSH_FXP_CLOSE, Size: 23, Number: 2052
+		. 2016-03-11 12:21:20.429 .;D;0;2016-03-11T12:11:01.000Z;"" [0];"" [0];rw-rw-rw-;3
+		. 2016-03-11 12:21:20.429 ..;D;0;2016-03-11T12:11:01.000Z;"" [0];"" [0];rw-rw-rw-;1
+		. 2016-03-11 12:21:20.429 Archive;D;0;2016-03-11T12:07:16.000Z;"" [0];"" [0];rw-rw-rw-;1
+		. 2016-03-11 12:21:20.429 InviteToPay-asdasd-asdasdasd-asdasdasd-asdasdasdasd.csv;-;11;2016-03-08T13:28:08.000Z;"" [0];"" [0];rw-rw-rw-;1
+		. 2016-03-11 12:21:20.429 PDF;D;0;2015-08-20T10:54:48.000Z;"" [0];"" [0];rw-rw-rw-;1
+		. 2016-03-11 12:21:20.429 RenewalReminder_asdasd_asdasdasd_asdasfgadgasdasd45415.csv;-;15;2016-03-08T13:27:29.000Z;"" [0];"" [0];rw-rw-rw-;1
+		. 2016-03-11 12:21:20.429 TEST;D;0;2016-03-11T12:05:16.000Z;"" [0];"" [0];rw-rw-rw-;1
+		< 2016-03-11 12:21:20.429 Script: Switch -filemask overrides obsolete options include/exclude.
+		. 2016-03-11 12:21:20.429 Copying 2 files/directories to local directory "C:\Users\rachitgiri\AppData\Local\Temp\Test_2016_03_11_122118"
+		. 2016-03-11 12:21:20.429   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: 
+		. 2016-03-11 12:21:20.429   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; InclM: |*/; ResumeL: 0
+		. 2016-03-11 12:21:20.429   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+		. 2016-03-11 12:21:20.429 File: '/CorrespExport/InviteToPay-asdasd-asdasdasd-asdasdasd-asdasdasdasd.csv' [2016-03-08T13:28:08.000Z] [11]
+		. 2016-03-11 12:21:20.429 Copying "/CorrespExport/InviteToPay-asdasd-asdasdasd-asdasdasd-asdasdasdasd.csv" to local directory started.
+		. 2016-03-11 12:21:20.429 Binary transfer mode selected.
+		. 2016-03-11 12:21:20.429 Opening remote file.
+		> 2016-03-11 12:21:20.429 Type: SSH_FXP_OPEN, Size: 92, Number: 2307
+		< 2016-03-11 12:21:20.444 Type: SSH_FXP_STATUS, Size: 22, Number: 2052
+		. 2016-03-11 12:21:20.444 Discarding reserved response
+		< 2016-03-11 12:21:20.444 Type: SSH_FXP_HANDLE, Size: 79, Number: 2307
+		> 2016-03-11 12:21:20.444 Type: SSH_FXP_FSTAT, Size: 83, Number: 2568
+		< 2016-03-11 12:21:20.460 Type: SSH_FXP_ATTRS, Size: 62, Number: 2568
+		> 2016-03-11 12:21:20.460 Type: SSH_FXP_READ, Size: 91, Number: 2821
+		< 2016-03-11 12:21:20.475 Status code: 1
+		. 2016-03-11 12:21:20.475 3 skipped SSH_FXP_WRITE, SSH_FXP_READ, SSH_FXP_DATA and SSH_FXP_STATUS packets.
+		> 2016-03-11 12:21:20.475 Type: SSH_FXP_CLOSE, Size: 79, Number: 3332
+		. 2016-03-11 12:21:20.475 Preserving timestamp [2016-03-08T13:28:08.000Z]
+		. 2016-03-11 12:21:20.475 Transfer done: '/CorrespExport/InviteToPay-asdasd-asdasdasd-asdasdasd-asdasdasdasd.csv' [11]
+		. 2016-03-11 12:21:20.475 File: '/CorrespExport/RenewalReminder_asdasd_asdasdasd_asdasfgadgasdasd45415.csv' [2016-03-08T13:27:29.000Z] [15]
+		. 2016-03-11 12:21:20.475 Copying "/CorrespExport/RenewalReminder_asdasd_asdasdasd_asdasfgadgasdasd45415.csv" to local directory started.
+		. 2016-03-11 12:21:20.475 Binary transfer mode selected.
+		. 2016-03-11 12:21:20.475 Opening remote file.
+		> 2016-03-11 12:21:20.475 Type: SSH_FXP_OPEN, Size: 95, Number: 3587
+		< 2016-03-11 12:21:20.475 Type: SSH_FXP_STATUS, Size: 22, Number: 3332
+		. 2016-03-11 12:21:20.475 Discarding reserved response
+		< 2016-03-11 12:21:20.491 Type: SSH_FXP_HANDLE, Size: 82, Number: 3587
+		> 2016-03-11 12:21:20.491 Type: SSH_FXP_FSTAT, Size: 86, Number: 3848
+		< 2016-03-11 12:21:20.507 Type: SSH_FXP_ATTRS, Size: 62, Number: 3848
+		> 2016-03-11 12:21:20.507 Type: SSH_FXP_READ, Size: 94, Number: 4101
+		< 2016-03-11 12:21:20.522 Status code: 1
+		. 2016-03-11 12:21:20.522 3 skipped SSH_FXP_WRITE, SSH_FXP_READ, SSH_FXP_DATA and SSH_FXP_STATUS packets.
+		> 2016-03-11 12:21:20.522 Type: SSH_FXP_CLOSE, Size: 82, Number: 4612
+		. 2016-03-11 12:21:20.522 Preserving timestamp [2016-03-08T13:27:29.000Z]
+		. 2016-03-11 12:21:20.522 Transfer done: '/CorrespExport/RenewalReminder_asdasd_asdasdasd_asdasfgadgasdasd45415.csv' [15]
+		> 2016-03-11 12:21:20.522 Script: close
+		. 2016-03-11 12:21:20.522 Closing connection.
+		. 2016-03-11 12:21:20.522 Sending special code: 12
+		. 2016-03-11 12:21:20.522 Sent EOF message
+2016-03-11 12:21:20.616, LSC-DEV-01:rachitgiri, Downloaded to: C:\PPProject\c# Projects\Test\ppwatch\RBKC\Download\WorkingFolder\
+2016-03-11 12:21:20.616, LSC-DEV-01:rachitgiri, Downloaded:
+	InviteToPay-asdasd-asdasdasd-asdasdasd-asdasdasdasd.csv
+	RenewalReminder_asdasd_asdasdasd_asdasfgadgasdasd45415.csv
+2016-03-11 12:21:20.616, LSC-DEV-01:rachitgiri, Moving file to: C:\PPProject\c# Projects\Test\ppwatch\RBKC\Incoming\InviteToPay-asdasd-asdasdasd-asdasdasd-asdasdasdasd.csv
+2016-03-11 12:21:20.616, LSC-DEV-01:rachitgiri, Moving file to: C:\PPProject\c# Projects\Test\ppwatch\RBKC\Incoming\RenewalReminder_asdasd_asdasdasd_asdasfgadgasdasd45415.csv
+2016-03-11 12:21:20.616, LSC-DEV-01:rachitgiri, FTPUtils.Execute: { server = 213.131.177.134:22, username = Kcliberty, authType = password, ftpMode = SFTP, tempFileName = C:\Users\rachitgiri\AppData\Local\Temp\tmpE243.tmp, WinScpPath = C:\Program Files (x86)\WinSCP\WinSCP.com }
+2016-03-11 12:21:20.616, LSC-DEV-01:rachitgiri, Compiled Command:
+	option confirm off
+	option batch abort
+	option exclude <1
+	open -hostkey="*" "sftp://Kcliberty:***@213.131.177.134:22"
+	 mv "/CorrespExport/InviteToPay-asdasd-asdasdasd-asdasdasd-asdasdasdasd.csv" "/CorrespExport/Archive/InviteToPay-asdasd-asdasdasd-asdasdasd-asdasdasdasd.csv" 
+	 mv "/CorrespExport/RenewalReminder_asdasd_asdasdasd_asdasfgadgasdasd45415.csv" "/CorrespExport/Archive/RenewalReminder_asdasd_asdasdasd_asdasfgadgasdasd45415.csv" 
+	
+	close
+	exit
+	
+2016-03-11 12:21:23.034, LSC-DEV-01:rachitgiri, WINSCP OUTPUT:
+		. 2016-03-11 12:21:20.772 --------------------------------------------------------------------------
+		. 2016-03-11 12:21:20.772 WinSCP Version 5.7.5 (Build 5665) (OS 6.1.7601 Service Pack 1 - Windows 7 Professional)
+		. 2016-03-11 12:21:20.772 Configuration: HKCU\Software\Martin Prikryl\WinSCP 2\
+		. 2016-03-11 12:21:20.772 Log level: Normal
+		. 2016-03-11 12:21:20.772 Local account: LSC-DEV-01\rachitgiri
+		. 2016-03-11 12:21:20.772 Working directory: C:\PPProject\c# Projects\Test\Test\bin\Debug
+		. 2016-03-11 12:21:20.772 Process ID: 496
+		. 2016-03-11 12:21:20.772 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=575 /consoleinstance=_15000_177 "/log=C:\Users\rachitgiri\AppData\Local\Temp\tmpE244.tmp" "/console" "/script=C:\Users\rachitgiri\AppData\Local\Temp\tmpE243.tmp" 
+		. 2016-03-11 12:21:20.772 Time zone: Current: GMT+0, Standard: GMT+0 (GMT Standard Time), DST: GMT+1 (GMT Daylight Time), DST Start: 27/03/2016, DST End: 30/10/2016
+		. 2016-03-11 12:21:20.772 Login time: 11 March 2016 12:21:20
+		. 2016-03-11 12:21:20.772 --------------------------------------------------------------------------
+		. 2016-03-11 12:21:20.772 Script: Retrospectively logging previous script records:
+		> 2016-03-11 12:21:20.772 Script: option confirm off
+		< 2016-03-11 12:21:20.772 Script: confirm         off       
+		> 2016-03-11 12:21:20.772 Script: option batch abort
+		< 2016-03-11 12:21:20.772 Script: batch           abort     
+		< 2016-03-11 12:21:20.772 Script: reconnecttime   120       
+		> 2016-03-11 12:21:20.772 Script: option exclude <1
+		< 2016-03-11 12:21:20.772 Script: include         |<1       
+		> 2016-03-11 12:21:20.772 Script: open -hostkey="*" sftp://Kcliberty:***@213.131.177.134:22
+		. 2016-03-11 12:21:20.772 --------------------------------------------------------------------------
+		. 2016-03-11 12:21:20.772 Session name: Kcliberty@213.131.177.134 (Ad-Hoc site)
+		. 2016-03-11 12:21:20.772 Host name: 213.131.177.134 (Port: 22)
+		. 2016-03-11 12:21:20.772 User name: Kcliberty (Password: Yes, Key file: No)
+		. 2016-03-11 12:21:20.772 Tunnel: No
+		. 2016-03-11 12:21:20.772 Transfer Protocol: SFTP
+		. 2016-03-11 12:21:20.772 Ping type: -, Ping interval: 30 sec; Timeout: 15 sec
+		. 2016-03-11 12:21:20.772 Disable Nagle: No
+		. 2016-03-11 12:21:20.772 Proxy: none
+		. 2016-03-11 12:21:20.772 Send buffer: 262144
+		. 2016-03-11 12:21:20.772 SSH protocol version: 2; Compression: No
+		. 2016-03-11 12:21:20.772 Bypass authentication: No
+		. 2016-03-11 12:21:20.772 Try agent: Yes; Agent forwarding: No; TIS/CryptoCard: No; KI: Yes; GSSAPI: No
+		. 2016-03-11 12:21:20.772 Ciphers: aes,blowfish,3des,WARN,arcfour,des; Ssh2DES: No
+		. 2016-03-11 12:21:20.772 KEX: dh-gex-sha1,dh-group14-sha1,dh-group1-sha1,rsa,WARN
+		. 2016-03-11 12:21:20.772 SSH Bugs: A,A,A,A,A,A,A,A,A,A,A,A
+		. 2016-03-11 12:21:20.772 Simple channel: Yes
+		. 2016-03-11 12:21:20.772 Return code variable: Autodetect; Lookup user groups: A
+		. 2016-03-11 12:21:20.772 Shell: default
+		. 2016-03-11 12:21:20.772 EOL: 0, UTF: 2
+		. 2016-03-11 12:21:20.772 Clear aliases: Yes, Unset nat.vars: Yes, Resolve symlinks: Yes
+		. 2016-03-11 12:21:20.772 LS: ls -la, Ign LS warn: Yes, Scp1 Comp: No
+		. 2016-03-11 12:21:20.772 SFTP Bugs: A,A
+		. 2016-03-11 12:21:20.772 SFTP Server: default
+		. 2016-03-11 12:21:20.772 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+		. 2016-03-11 12:21:20.772 Cache directory changes: Yes, Permanent: Yes
+		. 2016-03-11 12:21:20.772 DST mode: 1
+		. 2016-03-11 12:21:20.772 --------------------------------------------------------------------------
+		. 2016-03-11 12:21:20.772 Looking up host "213.131.177.134"
+		. 2016-03-11 12:21:20.772 Connecting to 213.131.177.134 port 22
+		. 2016-03-11 12:21:20.787 Server version: SSH-2.0-CerberusFTPServer_8.0
+		. 2016-03-11 12:21:20.787 Using SSH protocol version 2
+		. 2016-03-11 12:21:20.787 We claim version: SSH-2.0-WinSCP_release_5.7.5
+		. 2016-03-11 12:21:20.803 Doing Diffie-Hellman group exchange
+		. 2016-03-11 12:21:21.021 Doing Diffie-Hellman key exchange with hash SHA-256
+		. 2016-03-11 12:21:22.098 Verifying host key rsa2 0x10001,0xd7e98f2791da8dfe 5205ebc978ff74b0 9d9b5186ec4ecb47 469bba96a1a90f8a 24233dbb40390742 c20cb00e47704b44 fc55777e03cb1376 6bc8a55bad7cdd8b 589476cd72914e84 545ff0dbc807c05a 04f0c837b4589d7d 34a7b64d7ad22695 b12de31075197096 9bd22ebd18cb5de1 a52159ce8aa0bf15 83d0373b77220cf2 3e26519ac24865ff aec876729472f912 a3caf1cf310869f2 e073e4f4490a0ced 052b5df33023a776 10d865060a2d740a 9aedf43ffd5cd23f f850bd604eb6b51b c91723db2a82f226 ca160d1d59dc9e7d 0bded72a9f031d80 deadae336454b7d4 e2846c4fca11a491 2462e5085c0d0e0e a8eb63b7cb1773bd a4334e0fb76228f1  with fingerprint ssh-rsa 2048 8a:b9:6b:2a:3f:43:70:a6:83:70:6f:3c:6f:33:13:20
+		* 2016-03-11 12:21:22.098 WARNING! Giving up security and accepting any host key as configured!
+		. 2016-03-11 12:21:22.098 Host key fingerprint is:
+		. 2016-03-11 12:21:22.098 ssh-rsa 2048 8a:b9:6b:2a:3f:43:70:a6:83:70:6f:3c:6f:33:13:20
+		. 2016-03-11 12:21:22.098 Initialised AES-256 SDCTR client->server encryption
+		. 2016-03-11 12:21:22.098 Initialised HMAC-SHA-256 client->server MAC algorithm
+		. 2016-03-11 12:21:22.098 Initialised AES-256 SDCTR server->client encryption
+		. 2016-03-11 12:21:22.098 Initialised HMAC-SHA-256 server->client MAC algorithm
+		! 2016-03-11 12:21:22.316 Using username "Kcliberty".
+		. 2016-03-11 12:21:22.394 Prompt (password, "SSH password", <no instructions>, "&Password: ")
+		. 2016-03-11 12:21:22.394 Using stored password.
+		. 2016-03-11 12:21:22.394 Sent password
+		. 2016-03-11 12:21:22.566 Access granted
+		. 2016-03-11 12:21:22.566 Opening session as main channel
+		. 2016-03-11 12:21:22.581 Opened main channel
+		. 2016-03-11 12:21:22.800 Started a shell/command
+		. 2016-03-11 12:21:22.800 --------------------------------------------------------------------------
+		. 2016-03-11 12:21:22.800 Using SFTP protocol.
+		. 2016-03-11 12:21:22.800 Doing startup conversation with host.
+		> 2016-03-11 12:21:22.800 Type: SSH_FXP_INIT, Size: 5, Number: -1
+		< 2016-03-11 12:21:22.815 Type: SSH_FXP_VERSION, Size: 162, Number: -1
+		. 2016-03-11 12:21:22.815 SFTP version 6 negotiated.
+		. 2016-03-11 12:21:22.815 Server requests EOL sequence "\r\n".
+		. 2016-03-11 12:21:22.815 Server software: Cerberus FTP Server 8.0.0.6 (80000006) by Cerberus, LLC
+		. 2016-03-11 12:21:22.815 Server support information (supported2):
+		. 2016-03-11 12:21:22.815   Attribute mask: 2BD, Attribute bits: FF, Open flags: 7
+		. 2016-03-11 12:21:22.815   Access mask: 3, Open block vector: 0, Block vector: 0, Max read size: 0
+		. 2016-03-11 12:21:22.815   Attribute extensions (0)
+		. 2016-03-11 12:21:22.815   Extensions (1)
+		. 2016-03-11 12:21:22.815     check-file
+		. 2016-03-11 12:21:22.815 We will use UTF-8 strings as it is mandatory with SFTP version 4 and newer
+		. 2016-03-11 12:21:22.815 Getting current directory name.
+		. 2016-03-11 12:21:22.815 Getting real path for '.'
+		> 2016-03-11 12:21:22.815 Type: SSH_FXP_REALPATH, Size: 11, Number: 16
+		< 2016-03-11 12:21:22.815 Type: SSH_FXP_NAME, Size: 72, Number: 16
+		. 2016-03-11 12:21:22.815 Real path is '/'
+		. 2016-03-11 12:21:22.815 Startup conversation with host finished.
+		< 2016-03-11 12:21:22.815 Script: Active session: [1] Kcliberty@213.131.177.134
+		> 2016-03-11 12:21:22.815 Script:  mv "/CorrespExport/InviteToPay-asdasd-asdasdasd-asdasdasd-asdasdasdasd.csv" "/CorrespExport/Archive/InviteToPay-asdasd-asdasdasd-asdasdasd-asdasdasdasd.csv" 
+		. 2016-03-11 12:21:22.815 Moving file "/CorrespExport/InviteToPay-asdasd-asdasdasd-asdasdasd-asdasdasdasd.csv" to "/CorrespExport/Archive/InviteToPay-asdasd-asdasdasd-asdasdasd-asdasdasdasd.csv".
+		> 2016-03-11 12:21:22.815 Type: SSH_FXP_RENAME, Size: 165, Number: 274
+		< 2016-03-11 12:21:22.940 Type: SSH_FXP_STATUS, Size: 22, Number: 274
+		< 2016-03-11 12:21:22.940 Status code: 0
+		< 2016-03-11 12:21:22.940 Script: /CorrespExport/InviteToPay-asdasd-asdasdasd-asdasdasd-asdasdasdasd.csv
+		> 2016-03-11 12:21:22.940 Script:  mv "/CorrespExport/RenewalReminder_asdasd_asdasdasd_asdasfgadgasdasd45415.csv" "/CorrespExport/Archive/RenewalReminder_asdasd_asdasdasd_asdasfgadgasdasd45415.csv" 
+		. 2016-03-11 12:21:22.940 Moving file "/CorrespExport/RenewalReminder_asdasd_asdasdasd_asdasfgadgasdasd45415.csv" to "/CorrespExport/Archive/RenewalReminder_asdasd_asdasdasd_asdasfgadgasdasd45415.csv".
+		> 2016-03-11 12:21:22.940 Type: SSH_FXP_RENAME, Size: 171, Number: 530
+		< 2016-03-11 12:21:22.956 Type: SSH_FXP_STATUS, Size: 22, Number: 530
+		< 2016-03-11 12:21:22.956 Status code: 0
+		< 2016-03-11 12:21:22.956 Script: /CorrespExport/RenewalReminder_asdasd_asdasdasd_asdasfgadgasdasd45415.csv
+		> 2016-03-11 12:21:22.956 Script: close
+		. 2016-03-11 12:21:22.956 Closing connection.
+		. 2016-03-11 12:21:22.956 Sending special code: 12
+		. 2016-03-11 12:21:22.956 Sent EOF message
+2016-03-11 12:21:23.034, LSC-DEV-01:rachitgiri, =========================================================
+2016-03-11 12:21:23.034, LSC-DEV-01:rachitgiri, RBKC_Download complete!

@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz-Console", "FizzBuzz\FizzBuzz-Console.csproj", "{602224C8-AA55-43B6-B501-7C04D33F8946}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Referenced Libraries", "Referenced Libraries", "{7D3ABBAC-89DF-4818-A3A8-C629D24E0D3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz-Forms", "FizzBuzz-Forms\FizzBuzz-Forms.csproj", "{64FA11EC-604D-403C-AF3F-E428E0D686C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibertyUtils", "..\..\PPProjects\c# Projects\LibertyUtils\LibertyUtils\LibertyUtils.csproj", "{84B76D1C-4A48-4F2B-94AB-0E81F5CC9A71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonUtilities", "..\..\PPProjects\c# Projects\CommonUtilities\CommonUtilities\CommonUtilities.csproj", "{A4DE9164-B0D2-4BAE-949B-9BAD73823CAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSLib", "..\..\PPProjects\ThunderSnow\TSLib\TSLib.csproj", "{38C242D8-1F43-4328-9E80-DB17C3AEE427}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{602224C8-AA55-43B6-B501-7C04D33F8946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{602224C8-AA55-43B6-B501-7C04D33F8946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{602224C8-AA55-43B6-B501-7C04D33F8946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{602224C8-AA55-43B6-B501-7C04D33F8946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64FA11EC-604D-403C-AF3F-E428E0D686C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64FA11EC-604D-403C-AF3F-E428E0D686C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64FA11EC-604D-403C-AF3F-E428E0D686C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64FA11EC-604D-403C-AF3F-E428E0D686C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84B76D1C-4A48-4F2B-94AB-0E81F5CC9A71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B76D1C-4A48-4F2B-94AB-0E81F5CC9A71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84B76D1C-4A48-4F2B-94AB-0E81F5CC9A71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4DE9164-B0D2-4BAE-949B-9BAD73823CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4DE9164-B0D2-4BAE-949B-9BAD73823CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4DE9164-B0D2-4BAE-949B-9BAD73823CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C242D8-1F43-4328-9E80-DB17C3AEE427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C242D8-1F43-4328-9E80-DB17C3AEE427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C242D8-1F43-4328-9E80-DB17C3AEE427}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84B76D1C-4A48-4F2B-94AB-0E81F5CC9A71} = {7D3ABBAC-89DF-4818-A3A8-C629D24E0D3A}
+		{A4DE9164-B0D2-4BAE-949B-9BAD73823CAA} = {7D3ABBAC-89DF-4818-A3A8-C629D24E0D3A}
+		{38C242D8-1F43-4328-9E80-DB17C3AEE427} = {7D3ABBAC-89DF-4818-A3A8-C629D24E0D3A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+2016-05-10 15:51:58.831, LSC-DEV-01:rachitgiri, Loading ConfigThunderSnow: C:\ProgramData\ThunderSnow\config_thundersnow.xml
+2016-05-10 15:51:59.018, LSC-DEV-01:rachitgiri, Loading ConfigThunderIndex: C:\ProgramData\ThunderSnow\config_thunderindex.xml
+2016-05-10 15:51:59.033, LSC-DEV-01:rachitgiri, Saving ConfigThunderIndex: C:\ProgramData\ThunderSnow\config_thunderindex.xml
+2016-05-10 15:51:59.602, LSC-DEV-01:rachitgiri, JobID: 102532
+2016-05-10 15:51:59.604, LSC-DEV-01:rachitgiri, JobID: 102534
+2016-05-10 15:51:59.606, LSC-DEV-01:rachitgiri, JobID: 102537
+2016-05-10 15:51:59.608, LSC-DEV-01:rachitgiri, JobID: 102569
+2016-05-10 15:51:59.609, LSC-DEV-01:rachitgiri, JobID: 102570
+2016-05-10 15:51:59.611, LSC-DEV-01:rachitgiri, JobID: 102598
+2016-05-10 15:51:59.613, LSC-DEV-01:rachitgiri, JobID: 103361
+2016-05-10 15:51:59.614, LSC-DEV-01:rachitgiri, JobID: 103362
+2016-05-10 15:51:59.616, LSC-DEV-01:rachitgiri, JobID: 103363
+2016-05-10 15:51:59.617, LSC-DEV-01:rachitgiri, JobID: 110321
+2016-05-10 15:51:59.619, LSC-DEV-01:rachitgiri, JobID: 110336
+2016-05-10 15:51:59.620, LSC-DEV-01:rachitgiri, JobID: 148141
+2016-05-10 15:51:59.625, LSC-DEV-01:rachitgiri, ====================================================================================
+2016-05-10 15:51:59.626, LSC-DEV-01:rachitgiri, PROGRAM START. USING SERVER: LIVE

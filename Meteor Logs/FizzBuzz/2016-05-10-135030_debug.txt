@@ -1,0 +1,6 @@
+2016-05-10 13:50:30.243, LSC-DEV-01:rachitgiri, Loading ConfigThunderSnow: C:\ProgramData\ThunderSnow\config_thundersnow.xml
+2016-05-10 13:50:30.426, LSC-DEV-01:rachitgiri, Loading ConfigThunderIndex: C:\ProgramData\ThunderSnow\config_thunderindex.xml
+2016-05-10 13:50:30.455, LSC-DEV-01:rachitgiri, Saving ConfigThunderIndex: C:\ProgramData\ThunderSnow\config_thunderindex.xml
+2016-05-10 13:50:30.483, LSC-DEV-01:rachitgiri, Nothing Found
+2016-05-10 13:50:30.485, LSC-DEV-01:rachitgiri, ====================================================================================
+2016-05-10 13:50:30.485, LSC-DEV-01:rachitgiri, PROGRAM START. USING SERVER: LIVE

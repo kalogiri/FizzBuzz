@@ -1,0 +1,10 @@
+2016-05-10 15:50:38.913, LSC-DEV-01:rachitgiri, Loading ConfigThunderSnow: C:\ProgramData\ThunderSnow\config_thundersnow.xml
+2016-05-10 15:50:39.100, LSC-DEV-01:rachitgiri, Loading ConfigThunderIndex: C:\ProgramData\ThunderSnow\config_thunderindex.xml
+2016-05-10 15:50:39.119, LSC-DEV-01:rachitgiri, Saving ConfigThunderIndex: C:\ProgramData\ThunderSnow\config_thunderindex.xml
+2016-05-10 15:50:39.137, LSC-DEV-01:rachitgiri, ErrorSystem.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at FizzBuzz.MeteorReport.MeteorReports(Nullable`1 startDate, Nullable`1 pastEndDate, String clientName) in C:\RG Scripts\FizzBuzz\FizzBuzz\Program.cs:line 344
+   at FizzBuzz.MeteorReport..ctor() in C:\RG Scripts\FizzBuzz\FizzBuzz\Program.cs:line 281
+   at FizzBuzz.Program.Main(String[] args) in C:\RG Scripts\FizzBuzz\FizzBuzz\Program.cs:line 25

@@ -1,0 +1,79 @@
+2016-05-10 12:37:50.979, LSC-DEV-01:rachitgiri, Loading ConfigThunderSnow: C:\ProgramData\ThunderSnow\config_thundersnow.xml
+2016-05-10 12:37:51.167, LSC-DEV-01:rachitgiri, Loading ConfigThunderIndex: C:\ProgramData\ThunderSnow\config_thunderindex.xml
+2016-05-10 12:37:51.188, LSC-DEV-01:rachitgiri, Saving ConfigThunderIndex: C:\ProgramData\ThunderSnow\config_thunderindex.xml
+2016-05-10 12:37:51.205, LSC-DEV-01:rachitgiri, MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM job
+                            INNER JOIN log ON log.job_id = job.id
+   ' at line 4
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at TSLib.SQL.<>c__DisplayClass18_0.<Select>b__0() in C:\PPProject\ThunderSnow\TSLib\SQL.cs:line 129
+   at TSLib.SQL.RunQueryAction(Action action, Boolean retryOnFailure) in C:\PPProject\ThunderSnow\TSLib\SQL.cs:line 418
+
+
+Retrying..
+2016-05-10 12:37:51.311, LSC-DEV-01:rachitgiri, MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM job
+                            INNER JOIN log ON log.job_id = job.id
+   ' at line 4
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at TSLib.SQL.<>c__DisplayClass18_0.<Select>b__0() in C:\PPProject\ThunderSnow\TSLib\SQL.cs:line 129
+   at TSLib.SQL.RunQueryAction(Action action, Boolean retryOnFailure) in C:\PPProject\ThunderSnow\TSLib\SQL.cs:line 418
+
+
+Retrying..
+2016-05-10 12:37:51.419, LSC-DEV-01:rachitgiri, MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM job
+                            INNER JOIN log ON log.job_id = job.id
+   ' at line 4
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at TSLib.SQL.<>c__DisplayClass18_0.<Select>b__0() in C:\PPProject\ThunderSnow\TSLib\SQL.cs:line 129
+   at TSLib.SQL.RunQueryAction(Action action, Boolean retryOnFailure) in C:\PPProject\ThunderSnow\TSLib\SQL.cs:line 418
+
+
+Retrying..
+2016-05-10 12:37:51.525, LSC-DEV-01:rachitgiri, MySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM job
+                            INNER JOIN log ON log.job_id = job.id
+   ' at line 4
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at TSLib.SQL.<>c__DisplayClass18_0.<Select>b__0() in C:\PPProject\ThunderSnow\TSLib\SQL.cs:line 129
+   at TSLib.SQL.RunQueryAction(Action action, Boolean retryOnFailure) in C:\PPProject\ThunderSnow\TSLib\SQL.cs:line 418
+
+
+Retrying..
+2016-05-10 12:37:51.651, LSC-DEV-01:rachitgiri, ErrorMySql.Data.MySqlClient.MySqlException (0x80004005): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM job
+                            INNER JOIN log ON log.job_id = job.id
+   ' at line 4
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at TSLib.SQL.<>c__DisplayClass18_0.<Select>b__0() in C:\PPProject\ThunderSnow\TSLib\SQL.cs:line 129
+   at TSLib.SQL.RunQueryAction(Action action, Boolean retryOnFailure) in C:\PPProject\ThunderSnow\TSLib\SQL.cs:line 425
+   at TSLib.SQL.Select(String query, Dictionary`2 parameters, Boolean retryOnFailure) in C:\PPProject\ThunderSnow\TSLib\SQL.cs:line 129
+   at FizzBuzz.MeteorReport.MeteorReports(Nullable`1 startDate, Nullable`1 pastEndDate, String clientName) in C:\RG Scripts\FizzBuzz\FizzBuzz\Program.cs:line 306
+   at FizzBuzz.MeteorReport..ctor() in C:\RG Scripts\FizzBuzz\FizzBuzz\Program.cs:line 281
+   at FizzBuzz.Program.Main(String[] args) in C:\RG Scripts\FizzBuzz\FizzBuzz\Program.cs:line 25
